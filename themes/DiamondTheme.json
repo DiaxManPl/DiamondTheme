@@ -1,0 +1,202 @@
+{
+	"name": "Diamond Theme",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#343036",
+		"editor.showUnused": true,
+		"editor.foreground": "#ffffff",
+		"activityBar.background": "#272428",
+		"activityBar.foreground": "#47cfeb",
+		"sideBar.background": "#1b181b",
+		"sideBarTitle.foreground": "#b3b3b3",
+		"statusBar.background": "#666666",
+		"statusBar.debuggingBackground": "#666666",
+		"statusBar.noFolderBackground": "#666666",
+		"panelTitle.activeForeground": "#47cfeb",
+		"terminal.ansiBlack": "#1b1818",
+		"terminal.ansiBlue": "#8c8cf2",
+		"terminal.ansiBrightBlack": "#999999",
+		"terminal.ansiBrightBlue": "#8c8cf2",
+		"terminal.ansiBrightCyan": "#8cf2f2",
+		"terminal.ansiBrightGreen": "#8cf28c",
+		"terminal.ansiBrightMagenta": "#f28cf2",
+		"terminal.ansiBrightRed": "#f28c9d",
+		"terminal.ansiBrightWhite": "#ffffff",
+		"terminal.ansiBrightYellow": "#f2f28c",
+		"terminal.ansiCyan": "#8cf2f2",
+		"terminal.ansiGreen": "#8cf28c",
+		"terminal.ansiMagenta": "#f28cf2",
+		"terminal.ansiRed": "#f28c9d",
+		"terminal.ansiWhite": "#ffffff",
+		"terminal.ansiYellow": "#f2f28c"
+	},
+	"tokenColors": [
+		{
+			"name": "Comments",
+			"scope": [
+				"comment",
+				"comment keyword",
+				"comment markup.underline.link",
+				"comment string",
+				"comment punctuation.definition",
+				"comment punctuation",
+				"comment text"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#666666"
+			}
+		},
+		{
+			"name": "JSDoc storage type",
+			"scope": ["storage.type.class.jsdoc"],
+			"settings": {
+				"foreground": "#47eb47",
+				"fontStyle": "bold italic"
+			}
+		},
+		{
+			"name": "JSDoc entity name",
+			"scope": ["entity.name.type.instance.jsdoc"],
+			"settings": {
+				"foreground": "#eb47eb"
+			}
+		},
+		{
+			"name": "JSDoc variable",
+			"scope": ["variable.other.jsdoc"],
+			"settings": {
+				"foreground": "#47cfeb"
+			}
+		},
+		{
+			"name": "Storages",
+			"scope": ["storage.type"],
+			"settings": {
+				"foreground": "#7de8e8",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": ["entity.name", "variable.other", "variable", "support.variable.property"],
+			"settings": {
+				"foreground": "#47cfeb"
+			}
+		},
+		{
+			"name": "Constants",
+			"scope": "variable.other.constant",
+			"settings": {
+				"foreground": "#759ef0"
+			}
+		},
+		{
+			"name": "Functions",
+			"scope": ["entity.name.function", "support.function"],
+			"settings": {
+				"foreground": "#47eb99"
+			}
+		},
+
+		{
+			"name": "Object member",
+			"scope": ["meta.object.member", "support.type.property-name", "variable.other.env"],
+			"settings": {
+				"foreground": "#47eb47"
+			}
+		},
+		{
+			"name": "Keywords",
+			"scope": ["keyword", "punctuation.definition.template-expression", "storage.modifier", "variable.language.this", "storage.type.function.arrow"],
+			"settings": {
+				"foreground": "#e05252",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Normal font keywords",
+			"scope": ["keyword.control", "keyword.operator", "punctuation.definition.template-expression", "storage.type.function.arrow"],
+			"settings": {
+				"fontStyle": "normal"
+			}
+		},
+		{
+			"name": "String",
+			"scope": ["string"],
+			"settings": {
+				"foreground": "#d6d65c"
+			}
+		},
+		{
+			"name": "String escape",
+			"scope": ["constant.character.escape"],
+			"settings": {
+				"foreground": "#5cd6d6"
+			}
+		},
+		{
+			"name": "Boolean",
+			"scope": ["constant.language.boolean"],
+			"settings": {
+				"foreground": "#c270c2"
+			}
+		},
+		{
+			"name": "Number",
+			"scope": ["constant.numeric.decimal"],
+			"settings": {
+				"foreground": "#7de8e8"
+			}
+		},
+		{
+			"name": "Punctuation",
+			"scope": ["punctuation", "meta.brace"],
+			"settings": {
+				"foreground": "#999999"
+			}
+		},
+		{
+			"name": "Class",
+			"scope": ["support.class", "meta.class"],
+			"settings": {
+				"foreground": "#a3e7f5"
+			}
+		},
+		{
+			"name": "Module exports",
+			"scope": ["support.type.object.module"],
+			"settings": {
+				"foreground": "#47eb99"
+			}
+		},
+		{
+			"name": "Function parameter",
+			"scope": ["variable.parameter"],
+			"settings": {
+				"foreground": "#47eb47"
+			}
+		},
+		{
+			"name": "Bat",
+			"scope": ["source.batchfile"],
+			"settings": {
+				"foreground": "#d6d65c"
+			}
+		},
+		{
+			"name": "Markdown",
+			"scope": ["text.html.markdown"],
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+		{
+			"name": "Markdow heading",
+			"scope": ["entity.name.section"],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		}
+	]
+}

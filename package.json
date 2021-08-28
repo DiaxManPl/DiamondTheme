@@ -1,0 +1,22 @@
+{
+	"name": "diamondtheme",
+	"displayName": "Diamond Theme",
+	"description": "",
+	"publisher": "DiaxManPl",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.59.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Diamond Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/DiamondTheme.json"
+			}
+		]
+	}
+}
