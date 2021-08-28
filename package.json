@@ -4,12 +4,20 @@
 	"description": "",
 	"publisher": "DiaxManPl",
 	"version": "1.0.0",
+	"icon": "static/icon.png",
 	"engines": {
 		"vscode": "^1.59.0"
 	},
 	"categories": [
 		"Themes"
 	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/DiaxManPl/DiamondTheme"
+	},
+	"bugs": {
+		"url": "https://github.com/DiaxManPl/DiamondTheme/issues"
+	},
 	"contributes": {
 		"themes": [
 			{
