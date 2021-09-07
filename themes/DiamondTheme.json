@@ -79,14 +79,14 @@
 		},
 		{
 			"name": "Variables",
-			"scope": ["entity.name", "variable.other", "variable", "support.variable.property"],
+			"scope": ["entity.name", "variable.other", "variable", "support.variable.property", "entity.other.attribute-name.class.css"],
 			"settings": {
 				"foreground": "#47cfeb"
 			}
 		},
 		{
 			"name": "Constants",
-			"scope": "variable.other.constant",
+			"scope": ["variable.other.constant", "entity.other.attribute-name.id.css"],
 			"settings": {
 				"foreground": "#759ef0"
 			}
@@ -101,7 +101,7 @@
 
 		{
 			"name": "Object member",
-			"scope": ["meta.object.member", "support.type.property-name", "variable.other.env"],
+			"scope": ["meta.object.member", "support.type.property-name", "variable.other.env", "entity.other.attribute-name.html"],
 			"settings": {
 				"foreground": "#47eb47"
 			}
@@ -151,7 +151,7 @@
 		},
 		{
 			"name": "Punctuation",
-			"scope": ["punctuation", "meta.brace"],
+			"scope": ["punctuation", "meta.brace", "keyword.operator.combinator.css"],
 			"settings": {
 				"foreground": "#999999"
 			}
