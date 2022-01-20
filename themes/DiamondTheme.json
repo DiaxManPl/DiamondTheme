@@ -86,7 +86,7 @@
 		},
 		{
 			"name": "Constants",
-			"scope": ["variable.other.constant", "entity.other.attribute-name.id.css"],
+			"scope": ["variable.other.constant", "entity.other.attribute-name.id.css", "support.constant.property-value.css"],
 			"settings": {
 				"foreground": "#759ef0"
 			}
@@ -116,14 +116,20 @@
 		},
 		{
 			"name": "Normal font keywords",
-			"scope": ["keyword.control", "keyword.operator", "punctuation.definition.template-expression", "storage.type.function.arrow"],
+			"scope": [
+				"keyword.control",
+				"keyword.operator",
+				"punctuation.definition.template-expression",
+				"storage.type.function.arrow",
+				"keyword.other.unit"
+			],
 			"settings": {
 				"fontStyle": "normal"
 			}
 		},
 		{
 			"name": "String",
-			"scope": ["string"],
+			"scope": ["string", "text.html.derivative"],
 			"settings": {
 				"foreground": "#d6d65c"
 			}
@@ -144,7 +150,7 @@
 		},
 		{
 			"name": "Number",
-			"scope": ["constant.numeric.decimal"],
+			"scope": ["constant.numeric.decimal", "constant.numeric.css"],
 			"settings": {
 				"foreground": "#7de8e8"
 			}
